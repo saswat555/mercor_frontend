@@ -1,5 +1,4 @@
-import React, { useState} from 'react';
-import axios from 'axios';
+import React from 'react';
 import 'tailwindcss/tailwind.css';
 import './index.css';
 import ChatComponent from './ChatComponent1';
