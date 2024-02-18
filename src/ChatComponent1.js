@@ -15,7 +15,7 @@ const ChatComponent = ({ sendMessage }) => {
     setMessages((prevMessages) => [...prevMessages, { text: queryString, isUser: true }]);
     
     try {
-      const response = await fetch('http://44.200.6.137:5000/search', {
+      const response = await fetch('https://44.200.6.137:5000/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
